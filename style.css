@@ -1,0 +1,65 @@
+body {
+    border: 5px solid red;
+    padding: 10px;
+    text-align: center; 
+}
+
+header {
+    border: 5px solid green;
+    text-align: center; 
+}
+
+.header-content {
+    height: 100px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+main {
+    border: 5px solid green;
+    text-align: center; 
+    margin-top: 10px; 
+    display: grid; 
+    grid-template-columns: 1fr 2fr 2fr; 
+}
+
+main div {
+    border: 5px solid skyblue;
+    margin-top: 10px; 
+    display: grid; 
+    margin: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.some-user-option {
+    height: 100px;
+    grid-column: 1 / 4; 
+}
+
+.tree-str1 {
+    height: 100px;
+    grid-column: 1 / 1; 
+}
+
+.content-area-1 {
+    height: 200px; 
+    grid-column: 2/6; 
+    grid-row: 2 / 4; 
+}
+
+.tree-str2 {
+    height: 200px; 
+    grid-column: 1 / 1; 
+    grid-row: 3 / 5; 
+}
+
+.content-area-2 {
+    height: 100px; 
+}
+
+.content-area-3 {
+    height: 100px; 
+}
